@@ -5,11 +5,12 @@ import configurestore from './redux/Store';
 import {Provider} from 'react-redux'
 
 function App() {
-  const store = configurestore();
+  const store = configurestore()
   return (
     <Provider store={store}>
     <Counter/>
     </Provider>
+  
   );
 }
 
