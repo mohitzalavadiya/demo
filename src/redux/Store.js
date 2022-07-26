@@ -8,5 +8,5 @@ const configurestore = () => {
 
     return store
 }
-      0
+      
 export default configurestore;
