@@ -13,10 +13,10 @@ function Counter(props) {
         dispatch(decrement())
     }
     return (
-        <div>
-            <button onClick={incre} className="bg-danger py-4 px-3 m-3 fs-1">+</button>
+        <div className='m-5'>
+            <button onClick={incre} className="bg-danger py-1 px-5 m-3 fs-1">+</button>
             {c.counter}
-            <button className="bg-danger py-4 px-3 m-3 fs-1" onClick={decre}>-</button>
+            <button className="bg-danger py-1 px-5 m-3 fs-1" onClick={decre}>-</button>
         </div>
     );
 }
